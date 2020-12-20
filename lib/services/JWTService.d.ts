@@ -1,0 +1,14 @@
+/// <reference types="node" />
+export interface IJWTPayload {
+    userId: string;
+    delegateeId: string;
+}
+export default class JWTService {
+    expiresIn: number;
+    privateKey: Buffer;
+    publicKey: Buffer;
+    passphrase: string;
+    constructor(expiresIn?: number);
+    sign(payload: IJWTPayload): string;
+    verify(token: string): string | object;
+}
