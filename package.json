@@ -1,6 +1,6 @@
 {
-  "name": "node-common-utils",
-  "version": "0.0.9",
+  "name": "node-common-utilities",
+  "version": "0.0.1",
   "description": "Common utilities for nodejs",
   "main": "lib/index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/codalyzedev/node-commons.git"
+    "url": "git+ssh://git@github.com/codalyzedev/common-utils.git"
   },
   "author": "codalyzedev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codalyzedev/node-commons/issues"
+    "url": "https://github.com/codalyzedev/common-utils/issues"
   },
-  "homepage": "https://github.com/codalyzedev/node-commons#readme",
+  "homepage": "https://github.com/codalyzedev/common-utils#readme",
   "dependencies": {
     "@types/amqplib": "^0.5.11",
     "@types/bluebird": "^3.5.26",
